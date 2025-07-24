@@ -5,50 +5,60 @@ h2 {
 }
 
 .banner {
-    width: 1600px;
-}
-
-.center {
-    text-align: center;
+    width: 1600px
 }
 
 .menu {
-    list-style: none;
-    border: 1px solid black;
-    position: relative;
-    background-color: green;
-    display: block;
-    font-family: Impact;
-    color: aliceblue;
-    text-shadow:0px 0px 5px #000000;
-    text-decoration: none;
+    list-style:none;
+border:1px solid #ffffff;
+position:relative;
+text-shadow: #333;
+background-color: green;
+font-family: verdana;
 
-    
+
 
 
 }
 
-.fundo {
-    background-color: grey;
+
+
+.menu li a:hover{
+    color: none;
+
 }
 
-a:link {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
+.menu li a{color:#ffffff; text-decoration:none; padding:5px 10px; display:block; display: inline-block;}
 
+.menu li ul li {
+    border:1px solid #c0c0c0;
+    display:block;
+    display: inline-block;
 
-a:hover {
-  color: blue;
 }
 
 nav ul li {
     display: inline-block;
     padding: 20px 30px;
+}
 
 
+
+.fundo {
+    background-color: rgb(31, 31, 31);
 }
 
 h1 {
-    font-family: monospace;
+    font-family: fantasy;
+    color: rgb(0, 255, 42);
 }
+
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+
+    }

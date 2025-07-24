@@ -7,12 +7,78 @@ width: 1600px;
 h1 {
     color: green;
     font-family: fantasy;
+    color: white;
 }
 
 h2 {
     font-family: fantasy;
+    color: white;
+    size: 20px;
 }
 
 h3 {
     font-family: fantasy;
+    color: white;
+    size: 20px;
+}
+
+h4 {
+    font-family: fantasy;
+    color: rgb(63, 255, 5);
+}
+
+.fundo {
+    background-color: rgb(31, 31, 31);
+}
+
+p {
+    color: white;
+}
+
+strong {
+    color: green;
+}
+
+li {
+    color: white;
+    border:1;
+}
+
+
+.menu {
+    list-style:none;
+border:1px solid #ffffff;
+position:relative;
+text-shadow: #333;
+background-color: green;
+font-family: verdana;
+
+
+
+
+}
+
+
+
+.menu li a:hover{
+    color: none;
+
+}
+
+.menu li a{color:#ffffff; text-decoration:none; padding:5px 10px; display:block; display: inline-block;}
+
+.menu li ul li {
+    border:1px solid #c0c0c0;
+    display:block;
+    display: inline-block;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+a {
+    color: green;
 }

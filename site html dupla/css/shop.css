@@ -1,0 +1,23 @@
+.fundo {
+    background-color: rgb(31, 31, 31);
+}
+
+nav > a {
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 30px;
+    color: rgb(238, 255, 4);
+    background-color: rgb(61, 53, 53);
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+nav > a:hover {
+    background-color: rgb(26, 24, 24);
+}
+
+#shop {
+    display: flex;
+    justify-content: center;
+}

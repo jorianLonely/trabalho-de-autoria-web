@@ -19,5 +19,24 @@ nav > a:hover {
 
 #shop {
     display: flex;
+    position: relative;
     justify-content: center;
+
+}
+
+p {
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+#ye {
+    color:yellow
+}
+
+strong {
+    color: white;
+    font-family: tahoma;
 }

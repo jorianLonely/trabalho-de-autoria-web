@@ -5,25 +5,24 @@ width: 1600px;
 }
 
 h1 {
-    color: green;
+    color: rgb(0, 255, 42);
     font-family: fantasy;
-    color: white;
 }
 
 h2 {
-    font-family: fantasy;
+    font-family: tahoma;
     color: white;
     size: 20px;
 }
 
 h3 {
-    font-family: fantasy;
+    font-family: tahoma;
     color: white;
     size: 20px;
 }
 
 h4 {
-    font-family: fantasy;
+    font-family: tahoma;
     color: rgb(63, 255, 5);
 }
 
@@ -45,38 +44,19 @@ li {
 }
 
 
-.menu {
-    list-style:none;
-border:1px solid #ffffff;
-position:relative;
-text-shadow: #333;
-background-color: green;
-font-family: verdana;
-
-
-
-
+nav > a {
+    display: inline;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 30px;
+    color: white;
+    background-color: rgb(61, 53, 53);
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
 }
-
-
-
-.menu li a:hover{
-    color: none;
-
-}
-
-.menu li a{color:#ffffff; text-decoration:none; padding:5px 10px; display:block; display: inline-block;}
-
-.menu li ul li {
-    border:1px solid #c0c0c0;
-    display:block;
-    display: inline-block;
-
-}
-
-nav ul li {
-    display: inline-block;
-    padding: 20px 30px;
+nav > a:hover {
+    background-color: rgb(26, 24, 24);
 }
 
 a {

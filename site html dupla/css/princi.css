@@ -85,3 +85,18 @@ nav > a:hover {
     justify-content: center;
     margin: 30px;
 }
+
+    .mineletra {
+        font-family: 'Courier New';
+        color: rgb(0, 140, 255);
+    }
+
+    .ghast {
+        color: orange;
+        font-family: 'Courier New';
+    }
+
+    h3 {
+        color: white;
+        font-family: 'Franklin Gothic Medium';
+    }

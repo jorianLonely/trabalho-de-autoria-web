@@ -100,3 +100,7 @@ nav > a:hover {
         color: white;
         font-family: 'Franklin Gothic Medium';
     }
+
+    .mei {
+        justify-content: center;
+    }
